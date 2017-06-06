@@ -1,0 +1,13 @@
+$myvar: '#FFF';
+
+.myclass {
+	
+	color: $myvar;
+}
+
+.testclass{
+	background-color: $myvar;
+}
+.myclass{
+	background-color:$myvar;
+}

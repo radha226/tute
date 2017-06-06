@@ -1,0 +1,1 @@
+kise obj nu session variable ch store karwana;

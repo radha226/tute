@@ -1,0 +1,29 @@
+$myvar: '#FFF';
+
+$container: 100%;
+
+.myclass {
+	
+	color: $myvar;
+}
+
+.body-text{
+	
+	background-color: $myvar;
+}
+
+.col-4{
+	
+	width: $container/4;
+}
+
+.col-2{
+	
+	width: $container/2;
+}
+.col-5{
+	width:$container/5;
+}
+.col-8{
+	width:$container/5;
+}

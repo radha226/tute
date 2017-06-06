@@ -1,0 +1,5 @@
+[{"type":"text","name":"first_name","value":"","attr":{"placeholder":"Please enter first name","class":"firstName"}},{"type":"text","name":"last_name","value":"","attr":{"placeholder":"Please enter last name"}},{"type":"select","name":"state","options":{"punjab":"Punjab","hariyana":"Hariyana","delhi":"Delhi"}},{"type":"select","name":"city","options":{"asr":"Amritsar","jal":"Jalandhar","ldh":"Ludhiana"}},{"type":"checkbox","name":"products","options":{"prod1":"Product 1","prod2":"Product 2","prod3":"Product 3"}},{"type":"file","name":"myfile"},{"type":"textarea","name":"address","value":"","attr":{"placeholder":"Please Enter Address"}}]
+
+
+str_replace
+uci

@@ -1,0 +1,33 @@
+insert into user(NAME, USERNAME, PASSWORD, created_date) values('Test','test@gmail.com','123456',NOW())
+
+describe user;
+
+select * from user
+
+alter table user add column created_date date
+
+select NOW();
+
+select * from user where created_date IS NOT NULL;
+
+select count(*) from user where password != ''
+
+delete from user where id = 2
+
+
+
+
+select * from test limit 0,5
+
+select * from test order by id desc limit 1 offset 1
+
+select count(*) from test
+
+update test set password = FLOOR(RAND(2)*10)
+
+select FLOOR(RAND()*10)
+
+select sum(password) as totalCount from test
+
+select * from test where id in(select id from test where id = 34)
+select ROUND(RAND(2)*5)
