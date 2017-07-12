@@ -3,6 +3,7 @@
 	$obj= new departmeant();
 	if(isset($_POST['submit'])){
 		$obj->insert($_POST);
+		
 		// print_r($rr);
 	}
 

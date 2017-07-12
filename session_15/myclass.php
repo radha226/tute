@@ -10,7 +10,7 @@ class myclass{
 
 	function getData(){
 
-		$query = $this->db->prepare('select * from practice1 where name = ?');
+		$query = $this->db->prepare('select * from practice where name = ?');
 		$query->execute(array(''));
 
 		return $query->fetchAll(PDO::FETCH_ASSOC);

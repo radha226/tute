@@ -4,5 +4,6 @@
 
 	$obj = new mynewclass(1,2);
 
-	$obj->testing();
+	//$obj->testing();
+	mynewclass::testing();
 ?>

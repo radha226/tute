@@ -2,6 +2,7 @@
 	require_once "class.php";
 	$obj= new employee();
 	if(isset($_POST['submit'])){
+		//print_r($_POST);
 		$obj->insert($_POST);
 		// print_r($rr);
 	}

@@ -11,7 +11,7 @@ class myclass{
  		}
  	}
 
- 	/*$obj = new myclass;
- 	$obj->test();*/
- 	myclass::test();
+ 	$obj = new myclass;
+ 	$obj->test();
+ 	//myclass::test();
 ?>

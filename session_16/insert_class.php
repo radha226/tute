@@ -24,7 +24,7 @@
 		// }
 
 		function insert($d){
-			$Query=$this->db->prepare('INSERT INTO practice1 (name,password)VALUES (:user,:pass)');
+			$Query=$this->db->prepare('INSERT INTO practice (name,password)VALUES (:user,:pass)');
 
 			$Query->bindParam('user',$d['username']);
 		 $Query->bindParam('pass',$d['password']);
@@ -44,7 +44,7 @@
 		}
 
 		function getData($id){
-			$query = $this->db->prepare('select * from practice1 where id = ?');
+			$query = $this->db->prepare('select * from practice where id = ?');
 			$query->execute(array($id));
 			return $query->fetch(PDO::FETCH_ASSOC);
 		}

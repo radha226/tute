@@ -24,27 +24,29 @@
  		public function callNews(){
 
  			$this->mynew();
- 			echo $this->myvar;
+ 			echo $this->newvar;
  		}
 
  		public function putValue(){
 
- 			$this->myvar = 'Value from function';
+ 			$this->newvar = 'Value from function.';
  		}
  		public function cal(){
  			echo "this is number";
  		}
  		public static function number(){
- 			 self::cal();
+ 			self::cal();
+ 			//$this->cal();
  			// echo "Test";
  		}
  	}
 
  	$obj = new myclass;
- 	$obj->test();
+ 	//$obj->test();
+
  	//myclass::test();
- 	$obj->putValue();
- 	$obj->callNews();
- 	echo $obj->newvar;
- 	$obj->number();
+ 	$obj->mynew();
+ 	//$obj->callNews();
+ 	//echo $obj->newvar;
+ 	//$obj->number();
 ?>

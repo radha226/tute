@@ -13,19 +13,19 @@
 		  port: serviceBase.port,
 		  url: serviceBase.url,
 		  getAccounts: getAccounts,
-		  /*toString() {
+		  toString() {
 		    return JSON.stringify(super.valueOf())
-		  },*/
-		  toString: function(){
-		  	return JSON.stringify(this.valueOf())
 		  },
+		  // toString: function(){
+		  // 	return JSON.stringify(this.valueOf())
+		  // },
 		  getUrl: function() {return "http://" + this.url + ':' + this.port},
 		  valueOf_1_2_3: getAccounts()
 		}
 		console.log(accountServiceES5.toString());
 
 		// var accountServiceES5ObjectCreate = Object.create(serviceBase);
-		// var accountServiceES5ObjectCreate = {
+		// var accountServiceES5ObjectCreate= {
 		//   getAccounts: getAccounts,
 		//   toString: function() {
 		//     return JSON.stringify(this.valueOf())

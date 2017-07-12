@@ -9,8 +9,8 @@
 		}else{
 			echo "Another File";
 		}
-		// move_uploaded_file($_FILES['image']['tmp_name'], 'images/'.$_FILES['image']['name']);
-		// move_uploaded_file($_FILES['image']['tmp_name'], 'images/test.jpg');
+		 move_uploaded_file($_FILES['image']['tmp_name'], 'images/'.$_FILES['image']['name']);
+		 move_uploaded_file($_FILES['image']['tmp_name'], 'images/test.jpg');
 
 	}
 

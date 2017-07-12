@@ -12,7 +12,7 @@ $t = new Test();
 echo $t->setAbc("hii");
 $_SESSION['mytest'] = $t;
 echo "<pre>";
-//print_r($_SESSION['mytest']);
+print_r($_SESSION['mytest']);
 $test=$_SESSION['mytest'];
-echo $test;
+//echo $test;
 ?>

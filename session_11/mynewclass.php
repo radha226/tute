@@ -12,7 +12,7 @@ class mynewclass{
 	function __construct($one, $two){
 
 		echo "This is constructor<br/>";
-		//echo $one;
+		echo $one;
 		$this->keyValues = $one;
 	}
 

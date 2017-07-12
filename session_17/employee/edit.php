@@ -38,4 +38,4 @@ $viewall=$obj->getdata($_GET['id']);
 	<input type="submit" name="update" value="update">
 	</form>
 </body>
-</html>
+	</html>

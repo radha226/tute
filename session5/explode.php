@@ -5,7 +5,7 @@
 	$newArray = explode('h', $stringg);
 	echo "<pre/>";
 	print_r($newArray);
-	ex
+	
 	//
 
 ?>
